@@ -1,0 +1,23 @@
+#Crear y ejecutar script .sh
+
+#En la terminal
+
+cd $HOME && touch script.sh && chmod +x script.sh
+
+cd $HOME && echo '#!/bin/bash' > script.sh && echo '# -*- ENCODING: UTF-8 -*-' >> script.sh
+
+#Si lo abrimos, nos quedará de la forma
+
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+
+#A partir de la segunda fila se escriben las instrucciones
+#Importante terminar la script con exit
+
+#Para ejecutar la script debemos ir a la carpeta donde está el script
+
+cd $HOME
+
+#Ejecutamos
+
+./script.sh
