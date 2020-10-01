@@ -1,2 +1,2 @@
 # linux
-Linux commands
+Important Linux commands
